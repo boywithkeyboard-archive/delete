@@ -8,20 +8,20 @@ npm i -D @unvented/delete
 
 ### Usage
 
-**Delete a directory and all files in it.**
+**Delete a directory.**
 
 ```bash
 delete dist
 ```
 
-**Delete a single file.**
+**Delete a file.**
 
 ```bash
 delete dist/index.js
 ```
 
-**Delete multiple files.**
+**Delete multiple files and directories.**
 
 ```bash
-delete dist/foo.js dist/bar.js
+delete a/foo.js a/bar.js b c/foo.cjs d/bar.txt
 ```
