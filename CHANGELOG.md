@@ -1,5 +1,11 @@
 # @unvented/delete
 
+## v1.1.1
+
+### Changes
+
+- update website and email
+
 ## v1.1.0
 
 ### New Features

@@ -1,6 +1,6 @@
 {
   "name": "@unvented/delete",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Delete directories and files.",
   "author": "Samuel Kopp <opensource@samuelkopp.de> (https://samuelkopp.de)",
   "bin": {
