@@ -41,5 +41,5 @@ delete a/foo.js a/bar.js b c/foo.cjs d/bar.txt
 ```js
 import { deleteFiles } from '@unvented/delete'
 
-await deleteFiles('./a/foo.js', './a/bar.js', 'b', './c/foo.js', './d/bar.txt')
+await deleteFiles('./a/foo.js', './a/bar.js', './b', './c/foo.js', './d/bar.txt')
 ```
