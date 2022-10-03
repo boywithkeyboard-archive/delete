@@ -34,7 +34,7 @@ const stats = async (path: string) => {
 }
 
 export const deleteFiles = async (...entries: string[]) => {
-  for (let i of entries) {
+  for (const i of entries) {
     const s = await stats(i)
 
     if (!s) continue
