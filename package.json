@@ -4,12 +4,14 @@
   "description": "Delete directories and files.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "bin": {
-    "delete": "./dist/index.js"
+    "delete": "./dist/cli.js"
   },
+  "exports": "./dist/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "lint": "eslint src",
     "format": "eslint src --fix",
-    "build": "esbuild src/index.ts --format=esm --bundle --minify --platform=node --outfile=dist/index.js",
+    "build": "esbuild src/cli.ts --format=esm --bundle --minify --platform=node --outfile=dist/cli.js && esbuild src/index.ts --format=esm --bundle --minify --platform=node --outfile=dist/index.js",
     "release": "npm run lint && npm run build && npm publish --access public"
   },
   "license": "Apache-2.0",
