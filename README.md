@@ -3,7 +3,7 @@
 ### Installation
 
 ```bash
-npm i -D @unvented/delete
+npm i @unvented/delete
 ```
 
 ### Usage
